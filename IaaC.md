@@ -22,8 +22,7 @@
     - VirtualBox
       Version 7.0.8_BETA4 r156879 (Qt6.3.0)
     - Vagrant
-      были проблемы с установкой на mac m1, в облаке без проблем устанавливается
-      Vagrant 2.2.19
+      Vagrant 2.3.4
     - Terraform
       Terraform v1.4.6
     - Ansible
