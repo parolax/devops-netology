@@ -32,11 +32,12 @@
 
 3. Задача 3
   - Добавленная информация видна во втором контейнере 
-  - root@13d8549c5a0c:/data# ls -l
-    total 8
-    -rw-r--r-- 1 root root 35 May 20 08:43 test.txt
-    -rw-r--r-- 1 root root 29 May 20 09:37 test_host.txt
-  - root@13d8549c5a0c:/data# cat test.txt
-    I added that file in docker centos
-    root@13d8549c5a0c:/data# cat test_host.txt
-    Added from PC without docker
+  - root@13d8549c5a0c:/data# ls -l 
+  - total 8 
+  - -rw-r--r-- 1 root root 35 May 20 08:43 test.txt 
+  - -rw-r--r-- 1 root root 29 May 20 09:37 test_host.txt
+  - 
+  - root@13d8549c5a0c:/data# cat test.txt 
+  - I added that file in docker centos 
+  - root@13d8549c5a0c:/data# cat test_host.txt 
+  - Added from PC without docker
