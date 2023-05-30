@@ -28,11 +28,4 @@
     - Ansible
       ansible [core 2.14.5]
 4. Воспроизведите практическую часть лекции самостоятельно:
-    ➜  / vagrant box add bento/ubuntu-20.04 --provider=virtualbox
-    ==> box: Loading metadata for box 'bento/ubuntu-20.04'
-        box: URL: https://vagrantcloud.com/bento/ubuntu-20.04
-    ==> box: Adding box 'bento/ubuntu-20.04' (v202303.13.0) for provider: virtualbox
-        box: Downloading: https://vagrantcloud.com/bento/boxes/ubuntu-20.04/versions/202303.13.0/providers/virtualbox.box
-    ==> box: Successfully added box 'bento/ubuntu-20.04' (v202303.13.0) for 'virtualbox'!
-    ➜  / vagrant box list
-    bento/ubuntu-20.04 (virtualbox, 202303.13.0)
+    ![Screenshot](docker_compose_images/iaac.png)
