@@ -24,4 +24,10 @@
    Примените изменения.
    В качестве решения приложите вывод значений ip-адресов команды terraform output
 ![Screenshot](2.4.3.png)
-5. 
+5. Задача
+   В файле locals.tf опишите в одном local-блоке имя каждой ВМ, используйте интерполяцию ${..} с несколькими переменными по примеру из лекции.
+   Замените переменные с именами ВМ из файла variables.tf на созданные вами local переменные.
+   Примените изменения.
+   https://github.com/parolax/devops-netology/blob/terraform-02/terraform.yandex_cloud/src/locals.tf
+![Screenshot](2.5.0.png)
+6. 
