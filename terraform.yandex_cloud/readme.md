@@ -30,4 +30,9 @@
    Примените изменения.
    https://github.com/parolax/devops-netology/blob/terraform-02/terraform.yandex_cloud/src/locals.tf
 ![Screenshot](2.5.0.png)
-6. 
+6. Вместо использования 3-х переменных ".._cores",".._memory",".._core_fraction" в блоке resources {...}, объедените их в переменные типа map с именами "vm_web_resources" и "vm_db_resources".
+Так же поступите с блоком metadata {serial-port-enable, ssh-keys}, эта переменная должна быть общая для всех ваших ВМ.
+Найдите и удалите все более не используемые переменные проекта.
+Проверьте terraform plan (изменений быть не должно).
+- https://github.com/parolax/devops-netology/blob/terraform-02/terraform.yandex_cloud/src/main.tf
+- https://github.com/parolax/devops-netology/blob/terraform-02/terraform.yandex_cloud/src/variables.tf
