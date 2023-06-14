@@ -30,5 +30,5 @@
 В файле [ansible.tf](src/ansible.tf) создайте inventory-файл для ansible. Используйте функцию tepmplatefile и файл-шаблон для создания ansible inventory-файла из лекции. Готовый код возьмите из демонстрации к лекции demonstration2. Передайте в него в качестве переменных группы виртуальных машин из задания 2.1, 2.2 и 3.2.(т.е. 5 ВМ)
 Инвентарь должен содержать 3 группы [webservers], [databases], [storage] и быть динамическим, т.е. обработать как группу из 2-х ВМ так и 999 ВМ.
 Выполните код. Приложите скриншот получившегося файла.[template](src/hosts.tftpl)
-Для общего зачета создайте в вашем GitHub репозитории новую ветку terraform-03. Закомитьте в эту ветку свой финальный код проекта, пришлите [ссылку на коммит](https://github.com/parolax/devops-netology/tree/terraform-03/terraform.manage_constructions/src).
+Для общего зачета создайте в вашем GitHub репозитории новую ветку terraform-03. Закомитьте в эту ветку свой финальный код проекта, пришлите [ссылку на коммит](https://github.com/parolax/devops-netology/commit/0268eea879db09770b3eccdf354f8ff8af500fe6).
 ![Screenshot](3.4.1.png)
