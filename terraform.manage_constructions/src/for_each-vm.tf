@@ -43,7 +43,7 @@ resource "yandex_compute_instance" "vm" {
     }
 
   metadata = {
-    ssh-keys = "ubuntu:${var.token}"
+    ssh-keys = "ubuntu:${local.ssh_public_key}"
   }
 
   scheduling_policy { preemptible = true }
