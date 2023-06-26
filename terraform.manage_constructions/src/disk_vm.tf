@@ -25,6 +25,7 @@ resource "yandex_compute_instance" "storage" {
 
     metadata = {
         ssh-keys = "ubuntu:${local.ssh_public_key}"
+        serial-port-enable = 1
     }
 
     scheduling_policy { preemptible = true }
